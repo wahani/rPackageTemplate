@@ -1,0 +1,14 @@
+Package: templatePackage
+Type: Package
+Title: templatePackage
+Version: 0.1
+Author: ME
+Maintainer: <my@address.world>
+Depends: 
+        R(>= 3.0), 
+        testthat,
+        Rcpp,
+        RcppArmadillo
+ByteCompile: TRUE
+Description: My template package
+License: GPL
