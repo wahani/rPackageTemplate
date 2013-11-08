@@ -1,4 +1,4 @@
 library(testthat)
-library(SAE)
+library(templatePackage)
 
-test_package("SAE")
+test_package("templatePackage")
