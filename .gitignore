@@ -7,3 +7,4 @@ R_Code/*.RData
 *.o
 *.dll
 core
+*.html
