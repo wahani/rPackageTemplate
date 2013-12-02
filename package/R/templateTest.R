@@ -9,4 +9,4 @@
 #' @return hi
 #' 
 #' @author wahani
-tamplateTest <- function(x = 'hi') x
+templateTest <- function(x = 'hi') x
