@@ -23,3 +23,21 @@ Useful Resources:
 * [rtfm](http://cran.r-project.org/doc/manuals/r-release/R-exts.pdf)
 * RStudio and package development: http://www.rstudio.com/ide/docs/
 * Advanced R Programming: http://adv-r.had.co.nz/
+
+[(Re-)Configure git](http://stackoverflow.com/questions/9683279/how-do-i-remove-all-version-history-for-a-git-github-repository):
+--------------------------------------
+* Step 1: remove all history
+```
+rm -rf .git
+```
+* Step 2: reconstruct the Git repo with only the current content
+```
+git init
+git add .
+git commit -m "Initial commit"
+```
+* Step 3: push to GitHub.
+```
+git remote add origin <github-uri>
+git push -u --force origin master
+```
