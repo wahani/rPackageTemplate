@@ -6,10 +6,7 @@ Author: ME
 Maintainer: <my@address.world>
 Depends: 
         R(>= 3.0), 
-        testthat,
-        Rcpp (>= 0.10.5), 
-        RcppArmadillo (>= 0.3.920.1)
+        testthat
 ByteCompile: TRUE
 Description: My template package
 License: GPL
-LinkingTo: Rcpp, RcppArmadillo

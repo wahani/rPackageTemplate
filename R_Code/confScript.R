@@ -17,13 +17,4 @@ lapply(files,
          writeLines(txtFile, file)
        })
 
-# Don't need src/Rcpp/RcppArmadillo
-################################################################################
-
-files <- list.files(path="package/src", full.names = TRUE)
-file.remove(files, "package/src")
-
-txt <- readLines("package/DESCRIPTION")
-txt <- txt[!grepl("Rcpp", txt)]
-writeLines("package/DESCRIPTION", txt)
-
+# The RStudio-Project file will be renamed: Restart RStudio and build package!
