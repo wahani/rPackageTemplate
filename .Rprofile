@@ -8,8 +8,7 @@
     }
   
   # Update
-  utils::update.packages(lib.loc = .libPaths()[1], ask=FALSE, instlib=.libPaths()[1], 
-                         repos = "http://mirrors.softliste.de/cran/")
+  print(utils::packageStatus(repositories="http://mirrors.softliste.de/cran/src/contrib"))
 
 }
 
