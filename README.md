@@ -23,6 +23,7 @@ Useful Resources:
 * [rtfm](http://cran.r-project.org/doc/manuals/r-release/R-exts.pdf)
 * RStudio and package development: http://www.rstudio.com/ide/docs/
 * Advanced R Programming: http://adv-r.had.co.nz/
+* [Tutorial](http://cran.r-project.org/doc/contrib/Leisch-CreatingPackages.pdf)
 
 [(Re-)Configure git](http://stackoverflow.com/questions/9683279/how-do-i-remove-all-version-history-for-a-git-github-repository):
 --------------------------------------
