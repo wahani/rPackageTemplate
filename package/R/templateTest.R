@@ -2,11 +2,11 @@
 #' 
 #' @description describe me
 #' 
-#' @param x 
+#' @param x character
 #' 
 #' @details more details
 #' 
-#' @return hi
+#' @return returns 'hi'
 #' 
-#' @author wahani
+#' @export
 templateTest <- function(x = 'hi') x
